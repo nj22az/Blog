@@ -1,0 +1,21 @@
+<p class="mb-4">React Hooks revolutionized how we write components, allowing us to use state and other React features in functional components. While <code>useState</code> and <code>useEffect</code> are the workhorses, the true power of Hooks is unlocked when you start creating your own.</p>
+<h4 class="font-bold text-lg mb-2 mt-4">The Problem: Repetitive Logic</h4>
+<p class="mb-4">Imagine fetching data in multiple components. You'd likely repeat the same logic for loading states, error handling, and data storage. This is where custom hooks come in, allowing you to extract component logic into reusable functions.</p>
+<h4 class="font-bold text-lg mb-2 mt-4">Example: A <code>useFetch</code> Hook</h4>
+<p class="mb-4">A custom <code>useFetch</code> hook can encapsulate all the data-fetching logic:</p>
+<pre class="bg-gray-100 p-2 rounded text-xs overflow-x-auto"><code>function useFetch(url) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => setData(data))
+      .catch(err => setError(err))
+      .finally(() => setLoading(false));
+  }, [url]);
+
+  return { data, loading, error };
+}</code></pre>
+<p class="mt-4">Now, any component can use this hook to fetch data with a single line, making the code cleaner, more declarative, and easier to maintain. This is the core principle of writing effective, modern React.</p>

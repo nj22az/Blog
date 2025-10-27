@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "how-to-write-a-new-post",
+    "date": "2025-10-26",
+    "title": "How to Write a New Post: A Step-by-Step Guide",
+    "excerpt": "A meta-guide on the simple, two-step process for creating and publishing a new article on this blog, from writing the Markdown to updating the metadata.",
+    "tags": ["Meta", "Guide", "How-To"]
+  },
+  {
+    "slug": "responsive-design-in-2024",
+    "date": "2023-11-05",
+    "title": "Responsive Design in 2024: Beyond Media Queries",
+    "excerpt": "Exploring container queries, subgrid, and other modern techniques for creating truly fluid and component-driven layouts.",
+    "tags": ["CSS", "Responsive Design", "Frontend"]
+  },
+  {
+    "slug": "demystifying-react-hooks",
+    "date": "2023-10-28",
+    "title": "A Deep Dive into React Hooks",
+    "excerpt": "Moving beyond useState and useEffect to understand the power of custom hooks for cleaner, more reusable state logic.",
+    "tags": ["React", "JavaScript", "Frontend"]
+  },
+  {
+    "slug": "case-study-alleviating-ui-fatigue-with-modern-css",
+    "date": "2023-10-26",
+    "title": "Case Study: A Modern CSS Refactor",
+    "excerpt": "An in-depth look at how modern CSS techniques can reduce development time and improve the maintainability of a large codebase.",
+    "tags": ["CSS", "Refactoring", "Case Study"]
+  },
+  {
+    "slug": "the-active-ingredients-of-a-successful-web-project",
+    "date": "2023-09-15",
+    "title": "Core Principles of a Successful Web Project",
+    "excerpt": "Breaking down the essential components of a successful project, from initial planning and strategy to final deployment and maintenance.",
+    "tags": ["Project Management", "Best Practices", "Strategy"]
+  },
+  {
+    "slug": "ux-writing-the-silent-designer",
+    "date": "2023-08-20",
+    "title": "UX Writing: The Silent Designer in Your Interface",
+    "excerpt": "How thoughtful microcopy, clear instructions, and a consistent tone of voice can dramatically improve user experience.",
+    "tags": ["UX", "Design", "Writing"]
+  },
+  {
+    "slug": "prescribing-the-right-technology-a-developers-guide",
+    "date": "2023-08-01",
+    "title": "How to Choose the Right Tech Stack",
+    "excerpt": "A guide to diagnosing project needs and choosing the correct technological stack to ensure long-term health and scalability for your application.",
+    "tags": ["Architecture", "Technology", "Strategy"]
+  }
+]
